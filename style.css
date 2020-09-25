@@ -1,0 +1,45 @@
+.animal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+h1{
+    border:8px;
+    margin:auto;
+    background-color:red;
+    border-radius:80%;
+    text-align:center;
+}
+img{
+    width:450px;
+    height:350px;
+    margin:5px;
+    box-shadow:6px 6px 6px #0f0f0f;
+    background-color:lightsalmon;
+    transition-property:all 1ms;
+}
+
+#one:hover{
+    transform: skewx(36deg);
+content:url('https://www.stock-free.org/images/baby-animal-photo-05032016-image-203.jpg');
+}
+#two:hover{
+    transform:skewx(36deg);
+content:url('https://th.bing.com/th/id/OIP.Q4uYr8szQYeLHhxMoX9I8QHaFj?pid=Api&rs=1');
+ }
+ #three:hover{
+    transform:skewx(36deg);
+ content:url('https://www.stock-free.org/images/baby-animal-photo-05032016-image-003.jpg');
+}
+ #four:hover
+ { transform:skewy(36deg);
+ content:url('https://thewallpaper.co/wp-content/uploads/2016/01/hd-animal-wallpapers-wild-animals-high-resolution-animals-download-animal-wallpapers-free-wallpapers-cool-animals-cute-animals.hairy-1094x876-768x615.jpg');
+}
+ #five:hover{
+    transform:skewy(36deg);
+content:url('http://thewallpaper.co/wp-content/uploads/2016/01/hd-animal-wallpapers-wild-animals-high-resolution-animals-download-wallpaper-widescreen-images-free-animal-images-download-animal-wallpapers-2262x1504.jpg');
+ }
+ #six:hover{ transform:skewy(36deg);
+    content:url('https://th.bing.com/th/id/OIP.D14oKcO17ILRb9TUVq2oewHaEo?w=263&h=180&c=7&o=5&dpr=1.25&pid=1.7');
+    }
+                                           
