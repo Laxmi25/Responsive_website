@@ -1,0 +1,87 @@
+.rob{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.head
+{   
+    height:150px;
+    width:150px;
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+    background-color:brown;
+}
+.middle_part{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.left_hand
+{
+    height:180px;
+    width:50px;
+    background-color:brown;
+    border-radius:40px;
+    margin:10px;
+    
+}
+.middle_body
+{
+    height:200px;
+    width:200px;
+    background-color:brown;
+    border-radius:40px;
+}
+.right_hand{
+   
+    height:180px;
+    width:50px;
+    background-color:brown;
+    border-radius:40px;
+    margin:10px;
+    
+}
+.rob2{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    justify-content:center;
+}
+.left_leg{
+   
+    height:180px;
+    width:50px;
+    background-color:brown;
+    border-radius:40px;
+    margin-right:65px;
+    
+}
+.right_leg{
+   
+    height:180px;
+    width:50px;
+    background-color:brown;
+    border-radius:40px;
+    margin-left:65px;
+    
+}
+div{
+    transition:all 1s;
+}
+.head:hover{
+transform:scale(1.1);
+}
+.left_hand:hover{
+    transform:rotate(20deg);
+}
+.middle_body:hover{
+transform:scale(1.15);
+}
+.right_hand:hover{
+    transform:rotate(-20deg);
+    }
+.left_leg:hover{
+transform:rotate(15deg);
+}
+.right_leg:hover{
+    transform:rotate(-15deg);
+}
